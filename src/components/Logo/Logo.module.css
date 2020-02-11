@@ -1,0 +1,46 @@
+/* Logo.module.css */
+.circle {
+    width: 60%;
+    height: 60%;
+    background: yellow;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.sky {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background: skyblue;
+    border-radius: 5px;
+}
+
+.cloud1 {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 50px;
+    width: 100px;
+    height: 50px;
+    background: rgb(226, 224, 224);
+    border-radius: 80px / 40px;
+}
+
+.cloud2 {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 5px;
+    width: 100px;
+    height: 50px;
+    background: rgb(226, 224, 224);
+    border-radius: 100px / 50px;
+}
+
+.cloud3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+    background: rgb(226, 224, 224);
+    border-radius: 60px;
+}
