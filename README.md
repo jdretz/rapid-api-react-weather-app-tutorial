@@ -8,3 +8,10 @@ Tutorial on how to build a React weather app using RapidAPI.
 
 Remember to include a local .env file for the REACT_APP_API_KEY variable in process.env
 
+After cloning the repository run
+
+```
+yarn install
+yarn start
+```
+
