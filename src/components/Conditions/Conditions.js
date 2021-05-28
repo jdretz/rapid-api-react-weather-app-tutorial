@@ -1,13 +1,17 @@
 import React from 'react';
-import classes from './Conditions.module.css'
+import {
+    Wrapper,
+    Small,
+    Loader
+} from './Conditions.module.css'
 
 const conditions = (props) => {
     return (
-        <div className={classes.Wrapper}>
+        <div className={Wrapper}>
 
-            {props.error && <small className={classes.Small}>Please enter a valid city.</small>}
+            {props.error && <small className={Small}>Please enter a valid city.</small>}
 
-            {props.loading && <div className={classes.Loader} />}
+            {props.loading && <div className={Loader} />}
 
 
             {props.responseObj.cod === 200 ?
